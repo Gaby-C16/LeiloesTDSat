@@ -5,7 +5,7 @@ public class ProdutosDTO {
     private String nome;
     private String descricao;
     private double valor;
-    private String status; // <-- esse campo estava faltando
+    private String status; 
 
     // Getters e Setters
     public int getId() {
@@ -36,10 +36,10 @@ public class ProdutosDTO {
         this.valor = valor;
     }
 
-    public String getStatus() {   // <-- getter criado
+    public String getStatus() {   
         return status;
     }
-    public void setStatus(String status) {  // <-- setter criado
+    public void setStatus(String status) {  
         this.status = status;
     }
 }
